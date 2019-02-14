@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app')  {{-- single blog POST  --}}
 
 @section('content')
   @while(have_posts()) @php the_post() @endphp
