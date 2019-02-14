@@ -9,7 +9,7 @@
     ]
   },
   "publicPath": "/wp-content/themes/sagde",
-  "devUrl": "http://localhost:8003",
+  "devUrl": "http://sagde.local:8003",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
