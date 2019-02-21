@@ -115,7 +115,7 @@
       </h3>
       <div class="btn">
         <div class="inner allupper">
-          <a href="https://www.wexplore.co/en/register" class="absl"></a>scopri di più
+          <a href="#" class="absl"></a>scopri di più
         </div>
       </div>
     </div>
@@ -126,7 +126,7 @@
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter txt-8">
 
-      <h2 class=" allupper">timeline wexplore</h2>
+      <h2 class=" allupper">timeline Sagde</h2>
 
       <div class="timeline-structure">
 
