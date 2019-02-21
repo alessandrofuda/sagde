@@ -9,7 +9,7 @@
     <div class="wrapper-padded">
       <div id="footer-structure">
         <div class="logo">
-          <img src="@asset('images/wexplore-logo-color.svg')" alt="Sagde" />
+          <img src="@asset('images/logo-placeholder.png')" alt="Sagde" />
         </div>
         <div class="hamburger hamburger-footer-typoo">
           <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a>
