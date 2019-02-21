@@ -15,6 +15,10 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);   // asset_path() --> .. themes/sagde/dist/styles/main.css
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
+    // imported custom theme
+    wp_enqueue_style('sage/style-lp.css', asset_path('styles/style-lp.css'), false, null);
+    wp_enqueue_script('imported/theme-general.min.js', '/wp-content/themes/sagde/resources/assets/scripts/theme-general.min.js', ['jquery'], null, true);
+
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }

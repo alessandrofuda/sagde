@@ -5,6 +5,7 @@ wp-content/backup-db/
 wp-content/backups/
 wp-content/cache/
 wp-content/uploads/cache/
+wp-content/themes/sagde/node_modules/
 
 /.htaccess
 /license.txt
