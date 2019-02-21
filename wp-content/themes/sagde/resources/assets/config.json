@@ -6,6 +6,9 @@
     ],
     "customizer": [
       "./scripts/customizer.js"
+    ],
+    "style-lp": [
+      "./styles/style-lp.css"
     ]
   },
   "publicPath": "/wp-content/themes/sagde",
