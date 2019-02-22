@@ -13,7 +13,7 @@
 
 	      <?php endif; ?>
 	    </nav>
-        <span id="goToSectionOne">Contattaci</span>
+        <!--span id="goToSectionOne">Contattaci</span-->
       </div>
     </div>
   </div>

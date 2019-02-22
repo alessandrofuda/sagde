@@ -12,7 +12,7 @@
 	        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
 	      @endif
 	    </nav>
-        <span id="goToSectionOne">Contattaci</span>
+        <!--span id="goToSectionOne">Contattaci</span-->
       </div>
     </div>
   </div>

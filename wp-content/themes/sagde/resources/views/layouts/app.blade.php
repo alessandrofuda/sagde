@@ -5,7 +5,7 @@
     @php do_action('get_header') @endphp
     @include('partials.header')
 
-    <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="@asset('images/wexplore-cover.jpg')"></div>
+    <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="@asset('images/communication-agency-cover.jpg')"></div>
 
     <div class="wrap container" role="document">
       <div class="content">
