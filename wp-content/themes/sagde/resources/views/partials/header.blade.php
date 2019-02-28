@@ -2,7 +2,7 @@
 	<div class="header-bg"></div>
 	<div class="wrapper">
 		<div class="wrapper-padded">
-			<nav class="navbar navbar-expand-lg">
+			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="logo">
 					<a class="navbar-brand" href="{{ home_url('/') }}">
 						<img src="@asset('images/logo-placeholder.png')" alt="{{ get_bloginfo('name', 'display') }}">
