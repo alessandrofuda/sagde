@@ -23,7 +23,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="">
 	<?php wp_head() ?>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Varela+Round" rel="stylesheet">
+	<!--link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Varela+Round" rel="stylesheet"-->
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<!--script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'></script-->
 	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.19.0/lazyload.min.js'></script>
 </head>

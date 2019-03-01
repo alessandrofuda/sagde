@@ -66,6 +66,13 @@
       <h2 class="txt-8 allupper">Chi siamo</h2>
       <div class="container">
         <div class="row">
+          <div class="col-12">
+            <img class="front_img" src="@asset('images/front_img.jpg')" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
           <div class="col-md-4">
             <img src="@asset('images/image-placeholder-350x350.png')" alt="..." class="rounded-circle">
           </div>
