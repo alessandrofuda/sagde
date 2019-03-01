@@ -5,7 +5,7 @@
     <?php do_action('get_header') ?>
     <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-    <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="<?= App\asset_path('images/communication-agency-cover.jpg'); ?>"></div>
+    <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="<?= App\asset_path('images/communication-agency-cover.jpeg'); ?>"></div>
 
     <div class="wrap container" role="document">
       <div class="content">
