@@ -90,3 +90,12 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+
+
+function customLogoLoginPage() { 
+    echo '<style type="text/css">'; 
+    echo 'body.login div#login h1 a { background-image: url(\'/wp-content/themes/sagde/resources/screenshot.png\');width:100%;background-position: center;background-size:contain;height:170px; }'; 
+    echo '</style>'; 
+}
+add_action( 'login_enqueue_scripts', 'customLogoLoginPage' );
