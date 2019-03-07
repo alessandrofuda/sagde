@@ -216,8 +216,15 @@
       <div class="container google-map">
         <div class="row">
           <div class="col-md-12">
-              <div class="map" style="border:1px solid black; min-height: 500px; margin:5% auto;">
-                Mappa google?
+              <div class="map">
+                
+
+
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=milano%20via%20privata%20stefanardo%20da%20vimercate&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+
+
+
+
               </div>
           </div>
         </div>
