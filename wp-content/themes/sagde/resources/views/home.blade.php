@@ -241,35 +241,12 @@
   </div>
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter">
+
       <h2 class="allupper">Vuoi informazioni?<br/>Scrivici</h2>
       <div class="form-hold">
-        <form action="{{-- route('landing-page-post') --}}" method="POST">
-          {{-- csrf_field() --}}
-          <div class="flex-hold flex-hold-3">
-
-            <div class="flex-hold-child">
-              <input type="text" name="firstname" placeholder="Nome" value="{{--old('firstname')--}}" required />
-            </div>
-
-            <div class="flex-hold-child">
-              <input type="text" name="lastname" placeholder="Cognome" value="{{--old('lastname')--}}"required />
-            </div>
-
-            <div class="flex-hold-child">
-              <input type="email" name="email" placeholder="Email" value="{{--old('email')--}}" required/>
-            </div>
-
-          </div>
-          <textarea name="message" placeholder="Scrivi il tuo messaggio" required>{{--old('message')--}}</textarea>
-          <div class="alignleft">
-            Informativa Privacy*<br />
-            <input type="checkbox" name="privacy" required />
-            Dichiaro di aver preso visione dell'Informativa sulla privacy
-          </div>
-
-          <input type="submit" value="INVIA" />
-        </form>
+        {!! do_shortcode( '[contact-form-7 id="20" title="Contact form 1"]' ) !!}
       </div>
+
     </div>
   </div>
 </div>
