@@ -5,8 +5,8 @@
     @php do_action('get_header') @endphp
     @include('partials.header')
 
-    <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="@asset('images/communication-agency-cover.jpeg')"></div>
-
+    <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="{{ get_field('header_background_image')['url'] }}"></div>
+    
     <div class="wrap container" role="document">
       <div class="content">
         
