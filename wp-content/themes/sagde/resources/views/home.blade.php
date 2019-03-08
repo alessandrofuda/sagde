@@ -165,8 +165,6 @@
 
       <h2 class="txt-8 allupper">{{ get_field('title_block_4') }}</h2> 
 
-
-
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -212,11 +210,6 @@
           </div>
         </div>
       </div>
-
-
-
-
-
 
     </div>
   </div>
