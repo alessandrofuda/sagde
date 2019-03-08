@@ -34,8 +34,8 @@
         <div class="wrapper-padded">
           <div class="wrapper-padded-more">
             <div class="madscroll-slow aligncenter" data-scroll-speed="6">
-              <h1 class="txt-8 allupper">{{get_field('title_1')}}</h1>
-              <h2 class="txt-8 allupper">{{get_field('title_2')}}</h2>
+              <h1 class="txt-8 allupper">{{ get_field('title_1') }}</h1>
+              <h2 class="txt-8 allupper">{{ get_field('title_2') }}</h2>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
   <div class="wrapper-padded-more">
     <div class="block-spacing">
       <h3 class="aligncenter">
-        <span class="text-shadow dark">{!!get_field('introduction')!!}</span>
+        <span class="text-shadow dark">{!! get_field('introduction') !!}</span>
       </h3>
     </div>
   </div>
@@ -60,14 +60,14 @@
     <div class="block-spacing aligncenter">
       <div class="image-icon">
         <div class="no-the-100">
-          <img data-src="{{get_field('clip_block_1')['url']}}" alt="Sagde" class="lazy" />          
+          <img data-src="{{ get_field('clip_block_1')['url'] }}" alt="Sagde" class="lazy" />          
         </div>
       </div>
-      <h2 class="txt-8 allupper">{{get_field('title_block_1')}}</h2>
+      <h2 class="txt-8 allupper">{{ get_field('title_block_1') }}</h2>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <img class="front_img" src="{{get_field('image_block_1')['url']}}" alt="">
+            <img class="front_img" src="{{ get_field('image_block_1')['url'] }}" alt="">
           </div>
         </div>
       </div>
@@ -84,7 +84,10 @@
           </div>
         </div>
       </div>
-      <h4 class="txt-8">{{get_field('text_block_1')}}</h4>
+      <h4 class="txt-8">{{ get_field('text_block_1') }}</h4>
+      <div class="btn light">
+        <div id="cta-0" class="inner allupper">Contattaci</div>
+      </div>
     </div>
   </div>
 </div>
@@ -97,15 +100,11 @@
       <div class="image-icon">
         <div class="no-the-100">
           <!--img data-src="@ asset('images/wexplore-world.svg')" alt="Sagde" class="lazy" /-->
-          <img data-src="{{get_field('clip_block_2')['url']}}" alt="Sagde" class="lazy" />
+          <img data-src="{{ get_field('clip_block_2')['url'] }}" alt="Sagde" class="lazy" />
         </div>
       </div>
       <h2 class="txt-8 allupper">{{--get_field('title_block_2')--}}</h2>
-      <h3 class="aligncenter">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.<br/><br/><br/>
-
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
-      </h3>
+      <h3 class="aligncenter">{!! get_field('text_block_2') !!}</h3>
       <div class="container four-blocks">
           <div class="row">
             <div class="col-md-3">
@@ -126,6 +125,7 @@
   </div>
 </div>
 
+<!--block 3-->
 <div class="wrapper bg-6 hide-overflow">
   <div class="baloon-4 madscroll-slow" data-scroll-speed="3">
     <div class="no-the-100">
@@ -146,53 +146,83 @@
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter">
 
-      <h2 class="allupper">Lorem ipsum dolor sit amet</h2>
+      <h2 class="allupper">{{ get_field('title_block_3') }}</h2>
 
-      <h3 class="aligncenter">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-      </h3>
+      <h3 class="aligncenter">{!! get_field('text_block_3') !!}</h3>
       <div class="btn">
         <div class="inner allupper">
-          <a href="#anhor" id="cta-1" class="absl"></a>Contattaci
+          <a href="#anchor" id="cta-1" class="absl"></a>Contattaci
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<!--block 4-->
 <div id="menu-item-16-anchor" class="wrapper bg-11">
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter txt-8">
 
-      <h2 class="txt-8 allupper">Cosa facciamo</h2> 
+      <h2 class="txt-8 allupper">{{ get_field('title_block_4') }}</h2> 
 
-      <div class="timeline-structure">
 
-        <div class="timeline-block">
-          <h3 class="allupper">Branding intelligence</h3>
-          <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="timeline-structure">
+              <div class="timeline-block">
+                <h3 class="allupper">Branding intelligence</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+              <div class="timeline-block">
+                <h3 class="allupper">Web intelligence</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+              <div class="timeline-block">
+                <h3 class="allupper">Media relations</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+              <div class="timeline-block">
+                <h3 class="">Social Branding</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="timeline-structure">
+              <div class="timeline-block">
+                <h3 class="allupper">Branding intelligence</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+              <div class="timeline-block">
+                <h3 class="allupper">Web intelligence</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+              <div class="timeline-block">
+                <h3 class="allupper">Media relations</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+              <div class="timeline-block">
+                <h3 class="">Social Branding</h3>
+                <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="timeline-block">
-          <h3 class="allupper">Web intelligence</h3>
-          <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
-        </div>
-
-        <div class="timeline-block">
-          <h3 class="allupper">Media relations</h3>
-          <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
-        </div>
-
-        <div class="timeline-block">
-          <h3 class="">Social Branding</h3>
-          <h5 class="txt-1">Sed ut perspiciatis unde omnis iste natus</h5>
-        </div>
-
       </div>
+
+
+
+
+
+
     </div>
   </div>
 </div>
 
+<!--block 5-->
 <div id="menu-item-17-anchor" class="wrapper bg-8">
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter">
@@ -203,43 +233,32 @@
         </div>
       </div>
 
-      <h2 class="allupper">Dove siamo</h2>
+      <h2 class="allupper">{{ get_field('title_block_5') }}</h2>
 
       <h3>
-        <span class="text-shadow underline">
-          Sed ut perspiciatis unde omnis iste
-        </span>
+        <span class="text-shadow underline">{{ get_field('subtitle_block_5') }}</span>
       </h3>
 
-      <h4>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?<br />
-      </h4>
+      <h4>{!! get_field('text_block_5') !!}</h4>
       <div class="container google-map">
         <div class="row">
           <div class="col-md-12">
               <div class="map">
-                
-
-
-                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=milano%20via%20privata%20stefanardo%20da%20vimercate&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
-
-
-
-
+                <iframe id="gmap_canvas" src="{{ get_field('google_map_url') }}" frameborder="0" scrolling="no"></iframe>
               </div>
           </div>
         </div>
       </div>
 
       <div class="btn">
-        <div class="inner allupper">
-          Contattaci
-        </div>
+        <div id="cta-2" class="inner allupper">Contattaci</div>
       </div>
 
     </div>
   </div>
 </div>
 
+<!--block 6-->
 <div id="menu-item-18-anchor" class="wrapper bg-6 hide-overflow">
   <div class="baloon-9 madscroll-slow" data-scroll-speed="8">
     <div class="no-the-100">
