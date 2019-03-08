@@ -34,8 +34,8 @@
         <div class="wrapper-padded">
           <div class="wrapper-padded-more">
             <div class="madscroll-slow aligncenter" data-scroll-speed="6">
-              <h1 class="txt-8 allupper">sag.de</h1>
-              <h2 class="txt-8 allupper">studio associato giornalistico distribuzione elettronica</h2>
+              <h1 class="txt-8 allupper">{{get_field('title_1')}}</h1>
+              <h2 class="txt-8 allupper">{{get_field('title_2')}}</h2>
             </div>
           </div>
         </div>
@@ -43,31 +43,31 @@
     </div>
 </div>
 
+<!--intro-->
 <div class="wrapper bg-8">
   <div class="wrapper-padded-more">
     <div class="block-spacing">
       <h3 class="aligncenter">
-        <span class="text-shadow dark">
-          Strategia, contenuti, creatività e analisi sono le parole chiave alla base della nostra offerta. Ideiamo e gestiamo <span class="text-shadow underline">progetti di comunicazione</span> che consentono ai nostri clienti di differenziasi, aumentare il valore dei loro brand e sviluppare business per raggiungere i loro obiettivi aziendali.
-        </span>
+        <span class="text-shadow dark">{!!get_field('introduction')!!}</span>
       </h3>
     </div>
   </div>
 </div>
 
+<!--block 1-->
 <div id="menu-item-15-anchor" class="wrapper bg-10">
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter">
       <div class="image-icon">
         <div class="no-the-100">
-          <img data-src="@asset('images/wexplore-screen.svg')" alt="Sagde" class="lazy" />
+          <img data-src="{{get_field('clip_block_1')['url']}}" alt="Sagde" class="lazy" />          
         </div>
       </div>
-      <h2 class="txt-8 allupper">Chi siamo</h2>
+      <h2 class="txt-8 allupper">{{get_field('title_block_1')}}</h2>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <img class="front_img" src="@asset('images/front_img.jpg')" alt="...">
+            <img class="front_img" src="{{get_field('image_block_1')['url']}}" alt="">
           </div>
         </div>
       </div>
@@ -84,23 +84,23 @@
           </div>
         </div>
       </div>
-      <h4 class="txt-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-      </h4>
+      <h4 class="txt-8">{{get_field('text_block_1')}}</h4>
     </div>
   </div>
 </div>
 
+<!--block 2-->
 <div class="wrapper bg-8">
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter">
 
       <div class="image-icon">
         <div class="no-the-100">
-          <img data-src="@asset('images/wexplore-world.svg')" alt="Sagde" class="lazy" />
+          <!--img data-src="@ asset('images/wexplore-world.svg')" alt="Sagde" class="lazy" /-->
+          <img data-src="{{get_field('clip_block_2')['url']}}" alt="Sagde" class="lazy" />
         </div>
       </div>
-
+      <h2 class="txt-8 allupper">{{--get_field('title_block_2')--}}</h2>
       <h3 class="aligncenter">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.<br/><br/><br/>
 
@@ -153,7 +153,7 @@
       </h3>
       <div class="btn">
         <div class="inner allupper">
-          <a href="#" class="absl"></a>Contattaci
+          <a href="#anhor" id="cta-1" class="absl"></a>Contattaci
         </div>
       </div>
     </div>
