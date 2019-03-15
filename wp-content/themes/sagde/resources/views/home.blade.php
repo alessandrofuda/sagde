@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="fullscreen-cta fullscreen-cta-center">
-      <div class="wrapper">
+      <div id="top-titles" class="wrapper">
         <div class="wrapper-padded">
           <div class="wrapper-padded-more">
             <div class="madscroll-slow aligncenter" data-scroll-speed="6">
