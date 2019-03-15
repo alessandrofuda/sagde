@@ -222,7 +222,7 @@
 
       <div class="image-icon">
         <div class="no-the-100">
-          <img data-src="@asset('images/wexplore-announcment.sv_g')" alt="Sagde" class="lazy" />
+          <img data-src="@asset('images/wexplore-announcment.svg')" alt="Sagde" class="lazy" />
         </div>
       </div>
 
