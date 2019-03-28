@@ -66,7 +66,7 @@
       <h2 class="title txt-8 allupper">{{-- get_field('title_block_1') --}} Chi siamo: non il solito ufficio stampa</h2>
 
       <div class="container-fluid">
-        <div class="row">
+        <div class="row row-1">
           <div class="col-md-6 padding-0 sx">
             <div class="chi-siamo-1-container">
               <h4 class="txt-8">Comunicare significa suscitare l’interesse e la curiosità attraverso un messaggio diretto, semplice, immediato e soprattutto coerente e corretto.</h4>
@@ -80,7 +80,7 @@
             <img class="front_img" src="{{ get_field('image_block_1')['url'] }}" alt="">
           </div>
         </div>
-        <div class="row">
+        <div class="row row-2">
           <div class="col-md-6 bottom padding-0 sx">
             <div class="chi-siamo-2-container">
               <h4 class="txt-8">SAGDE nasce dall’esperienza ultradecennale delle sue fondatrici nell’editoria di settore, supportata da una formazione universitaria tecnica.</h4>
@@ -188,12 +188,13 @@
 </div-->
 
 <!--block 4-->
-<div id="menu-item-16-anchor" class="wrapper bg-11">
+<div id="menu-item-16-anchor" class="wrapper b_g-11">
   <div class="wrapper-padded-more">
     <div class="block-spacing aligncenter txt-8">
-
-      <h2 class="title txt-8 allupper">{{-- get_field('title_block_4') --}}I nostri servizi</h2>
-
+      <div class="title" style="position:relative;">
+        <h2 class="title txt-8 allupper" style="z-index:10; margin-bottom:0;">{{-- get_field('title_block_4') --}}I nostri servizi</h2>
+        <div class="filter-opacity" style="z-index:-1"></div>
+      </div>
       <div class="container-fluid">
         <!--div class="row">
           <div class="col-md-6">
@@ -238,41 +239,50 @@
             </div>
           </div>
         </div-->
-        <div class="row">
-          <div class="col-12 padding-0">
-            <h3 class="allupper">UFFICIO STAMPA: SE FAI E NON COMUNICHI, NESSUNO LO SAPRÀ</h3>
-            <h4 class="txt-8">Conosciamo approfonditamente i mercati di riferimento e le dinamiche dei settori in cui operiamo. E conosciamo molto bene i diversi canali media. Il che ci permette di comunicare al meglio, mantenendo costante la visibilità di chi ci sceglie.</h4>
-            <h5 class="txt-1">Studiare la migliore strategia comunicativa su misura per te è il nostro lavoro.</h5>
-            <div class="btn light">
-              <div id="cta-0" class="inner allupper">Contattaci</div>
+        <div class="row row-top">
+          <div class="col-12 padding-0" style="z-index: 10">
+            <div class="cosa-facciamo-container col12 alignleft">
+              <h3 class="allupper">UFFICIO STAMPA: SE FAI E NON COMUNICHI, NESSUNO LO SAPRÀ</h3>
+              <h4 class="txt-8">Conosciamo approfonditamente i mercati di riferimento e le dinamiche dei settori in cui operiamo. E conosciamo molto bene i diversi canali media. Il che ci permette di comunicare al meglio, mantenendo costante la visibilità di chi ci sceglie.</h4>
+              <h5 class="">Studiare la migliore strategia comunicativa su misura per te è il nostro lavoro.</h5>
+              <div class="btn light" style="float:right;">
+                <div id="cta-0" class="inner allupper">Contattaci</div>
+              </div>
             </div>
           </div>
+          <div class="filter-opacity" style="z-index:9"></div>
         </div>
-        <div class="row">
+        <div class="row row-middle bg-11">
           <div class="col-md-6 padding-0 sx">
-            <h3 class="allupper">SOCIAL MEDIA: UN OCCHIO SEMPRE APERTO</h3>
-            <h4 class="txt-8">Strumento da saper gestire, i Social Media raggiungono il più ampio e variegato target di utenti, a cui vanno fornite informazioni chiare, mirate e costanti.</h4>
-            <h5 class="txt-1">Studiare e individuare i migliori canali social e un preciso calendario di gestione è il nostro lavoro</h5>
-            <div class="btn light">
-              <div id="cta-0" class="inner allupper">Contattaci</div>
+            <div class="cosa-facciamo-container">
+              <h3 class="allupper">SOCIAL MEDIA: UN OCCHIO SEMPRE APERTO</h3>
+              <h4 class="txt-8">Strumento da saper gestire, i Social Media raggiungono il più ampio e variegato target di utenti, a cui vanno fornite informazioni chiare, mirate e costanti.</h4>
+              <h5 class="txt-1">Studiare e individuare i migliori canali social e un preciso calendario di gestione è il nostro lavoro</h5>
+              <div class="btn light">
+                <div id="cta-0" class="inner allupper">Contattaci</div>
+              </div>
             </div>
           </div>
           <div class="col-md-6 padding-0 dx">
-            <h3 class="allupper">LEAD GENERATION: IL CONTATTO PERFETTO</h3>
-            <h4 class="txt-8">Generare nuovi potenziali contatti è linfa vitale per tutti.</h4>
-            <h5 class="txt-1">Studiare la tua lista contatti, grazie al supporto di un Team di esperti, è il nostro lavoro</h5>
-            <div class="btn light">
-              <div id="cta-0" class="inner allupper">Contattaci</div>
+            <div class="cosa-facciamo-container">
+              <h3 class="allupper">LEAD GENERATION: IL CONTATTO PERFETTO</h3>
+              <h4 class="txt-8">Generare nuovi potenziali contatti è linfa vitale per tutti.</h4>
+              <h5 class="txt-1">Studiare la tua lista contatti, grazie al supporto di un Team di esperti, è il nostro lavoro</h5>
+              <div class="btn light">
+                <div id="cta-0" class="inner allupper">Contattaci</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-bottom bg-12">
           <div class="col-12 padding-0">
-            <h3 class="allupper">IL GIUSTO LOOK: GRAFICA E DESIGN</h3>
-            <h4 class="txt-8">La prima impressione conta eccome. Il giusto look attira l’attenzione e apre la strada al messaggio comunicativo. I nostri servizi di grafica e design curano nel dettaglio l’immagine di chi lavora con noi e permettono di accrescere la percezione del brand.</h4>
-            <h5 class="txt-1">Studiare il tuo Look nel rispetto della tua identità e dei tuoi valori aziendali è il nostro lavoro</h5>
-            <div class="btn light">
-              <div id="cta-0" class="inner allupper">Contattaci</div>
+            <div class="cosa-facciamo-container">
+              <h3 class="allupper">IL GIUSTO LOOK: GRAFICA E DESIGN</h3>
+              <h4 class="txt-8">La prima impressione conta eccome. Il giusto look attira l’attenzione e apre la strada al messaggio comunicativo. I nostri servizi di grafica e design curano nel dettaglio l’immagine di chi lavora con noi e permettono di accrescere la percezione del brand.</h4>
+              <h5 class="txt-1">Studiare il tuo Look nel rispetto della tua identità e dei tuoi valori aziendali è il nostro lavoro</h5>
+              <div class="btn light">
+                <div id="cta-0" class="inner allupper">Contattaci</div>
+              </div>
             </div>
           </div>
         </div>
