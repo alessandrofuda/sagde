@@ -6,14 +6,16 @@
 
 <footer id="footer" class="bg-8">
   <div class="wrapper">
-    <div class="wrapper-padded">
+    <div class="wrapper-padded" style="width: inherit;">
       <div id="footer-structure" class="row">
-        <div class="col-md-3">
-          <div class="logo">
-            <img src="@asset('images/logo-placeholder.png')" alt="Sagde" />
-          </div>
+        <div class="col-md-2">
+            <div class="logo">
+                <a class="navbar-brand" href="{{ home_url('/') }}">
+                    <img src="@asset('images/sagde_logo_header.png')" alt="{{ get_bloginfo('name', 'display') }}">
+                </a>
+            </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="rag-soc-footer">
                 <span class="rag-soc-1">Distribuzione Elettronica</span>
                 <span class="rag-soc-2">Studio Associato Giornalistico</span>
