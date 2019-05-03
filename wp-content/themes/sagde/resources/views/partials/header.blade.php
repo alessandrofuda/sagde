@@ -5,7 +5,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="logo">
 					<a class="navbar-brand" href="{{ home_url('/') }}">
-						<img src="@asset('images/sagde_logo_header.jpg')" alt="{{ get_bloginfo('name', 'display') }}">
+						<img src="@asset('images/sagde_logo_header.png')" alt="{{ get_bloginfo('name', 'display') }}">
 					</a>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
