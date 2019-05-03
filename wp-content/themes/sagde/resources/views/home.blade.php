@@ -292,45 +292,6 @@
   </div>
 </div>
 
-<!--block 5-->
-<div id="menu-item-17-anchor" class="wrapper bg-8">
-  <div class="container-fluid wrapper-padded-more">
-
-    <div class="row block-spacing">
-
-      <div class="col-12 col-md-6">
-        <div class="google-map">
-          <div class="map">
-            <iframe id="gmap_canvas" src="{{ get_field('google_map_url') }}" frameborder="0" scrolling="no"></iframe>
-          </div>
-        </div>
-      </div>
-
-      <div id="location" class="col-12 col-md-6">
-        <div class="addr-tit-block">
-          <div class="image-icon">
-            <div class="no-the-100 location">
-              <img data-src="http://sagde.alessandrofuda.it/wp-content/uploads/2019/03/location.png" alt="Sagde" class="lazy" />
-              {{-- @asset('images/wexplore-announcment.svg') --}}
-            </div>
-          </div>
-          <h2 class="title allupper">{{ get_field('title_block_5') }}</h2>
-        </div>
-        <div class="addr-text-block">
-          <h3>
-            <span class="text-shadow dark">{!! get_field('subtitle_block_5') !!}</span>
-          </h3>
-          <h4>{!! get_field('text_block_5') !!}</h4>
-          <div class="btn">
-            <div id="cta-2" class="inner allupper">Contattaci</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
 <!--block 6-->
 <div id="menu-item-18-anchor" class="wrapper bg-6 hide-overflow">
   <div class="baloon-9 madscroll-slow" data-scroll-speed="8">
