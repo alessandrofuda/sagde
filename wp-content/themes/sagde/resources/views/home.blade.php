@@ -34,8 +34,14 @@
         <div class="wrapper-padded">
           <div class="wrapper-padded-more">
             <div class="madscroll-slow aligncenter" data-scroll-speed="6">
-              <h1 class="txt-8 allupper">{{ get_field('title_1') }}</h1>
-              <h2 class="txt-8 allupper">{{ get_field('title_2') }}</h2>
+                <!--h1 class="txt-8 allupper">{{-- get_field('title_1') --}}</h1>
+                <h2 class="txt-8 allupper">{{-- get_field('title_2') --}}</h2-->
+                <h1 class="txt-8 allupper">
+                    <?php echo do_shortcode( '[typed string0="'.get_field('title_1').'" typeSpeed="80" startDelay="500" backSpeed="40" backDelay="100"]' ) ?> 
+                </h1>
+                <h2 class="txt-8 allupper">
+                    <?php echo do_shortcode( '[typed string0="Studio Associato Giornalistico" string1="Distribuzione Elettronica" string2="'.get_field('title_2').'" typeSpeed="50" startDelay="2000" backSpeed="40" backDelay="100" loopCount="2" loop="1"]' ) ?>  
+                </h2>
             </div>
           </div>
         </div>
