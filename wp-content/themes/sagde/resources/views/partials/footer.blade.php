@@ -41,7 +41,7 @@
         </div>
         <div class="col-md-3">
             <div class="hamburger hamburger-footer-typoo">
-              <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a>
+              <a href="privacy-policy">Privacy Policy</a> | <a href="#">Cookie Policy</a>
             </div>    
         </div>
 
