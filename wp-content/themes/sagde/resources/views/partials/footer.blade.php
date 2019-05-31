@@ -8,14 +8,14 @@
   <div class="wrapper">
     <div class="wrapper-padded" style="width: inherit;">
       <div id="footer-structure" class="row">
-        <div class="col-md-2">
+        <div class="col-12 col-md-2">
             <div class="logo">
                 <a class="navbar-brand" href="{{ home_url('/') }}">
                     <img src="@asset('images/sagde_logo_header.png')" alt="{{ get_bloginfo('name', 'display') }}">
                 </a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
             <div class="rag-soc-footer">
                 <span class="rag-soc-1">Distribuzione Elettronica</span>
                 <span class="rag-soc-2">Studio Associato Giornalistico</span>
@@ -25,7 +25,7 @@
                 <span>via Corridoni, 11  20122 Milano</span>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-12 col-md-3">
             <div class="contact">
                 <span></span>
                 <span>
@@ -39,7 +39,7 @@
                 </span>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-12 col-md-3">
             <div class="hamburger hamburger-footer-typoo">
               <a href="privacy-policy">Privacy Policy</a> | <a href="#">Cookie Policy</a>
             </div>    
