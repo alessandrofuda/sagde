@@ -78,7 +78,7 @@
       </div>
     </div>
   </div>
-  <div class="baloon-5 madscroll-slow bg-10" data-scroll-speed="5"></div>
+  <!--div class="baloon-5 madscroll-slow bg-10" data-scroll-speed="5"></div-->
   <div class="baloon-7 madscroll-slow" data-scroll-speed="6">
     <div class="no-the-100">
       <img src="@ asset('images/baloon-1.png')" alt="Sagde" class="" />
