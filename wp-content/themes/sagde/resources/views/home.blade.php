@@ -16,20 +16,20 @@
   @endwhile --}}
   <div class="box-fullscreen-fair hide-overflow">
 
-      <div class="baloon-1 madscroll-slow" data-scroll-speed="3">
+      <!--div class="baloon-1 madscroll-slow" data-scroll-speed="3">
         <div class="no-the-100">
-          <img data-src="@asset('images/baloon-1.png')" alt="Sagde" class="lazy" />
+          <img data-src="@ asset('images/baloon-1.png')" alt="Sagde" class="lazy" />
         </div>
-      </div>
+      </div-->
 
-      <div class="baloon-2 madscroll-slow bg-8" data-scroll-speed="4">
-      </div>
+      <!--div class="baloon-2 madscroll-slow bg-8" data-scroll-speed="4">
+      </div-->
 
-      <div class="baloon-3 madscroll-fast" data-scroll-speed="3">
+      <!--div class="baloon-3 madscroll-fast" data-scroll-speed="3">
         <div class="no-the-100">
-          <img data-src="@asset('images/baloon-3.png')" alt="Sagde" class="lazy" />
+          <img data-src="@ asset('images/baloon-3.png')" alt="Sagde" class="lazy" />
         </div>
-      </div>
+      </div-->
       <div class="fullscreen-cta fullscreen-cta-center">
         <div id="top-titles" class="wrapper">
           <div class="wrapper-padded">
@@ -78,13 +78,13 @@
       </div>
     </div>
   </div>
-  <div class="baloon-5 madscroll-slow bg-10" data-scroll-speed="5"></div>
-  <div class="baloon-7 madscroll-slow" data-scroll-speed="6">
+  <!--div class="baloon-5 madscroll-slow bg-10" data-scroll-speed="5"></div-->
+  <!--div class="baloon-7 madscroll-slow" data-scroll-speed="6">
     <div class="no-the-100">
       <img src="@ asset('images/baloon-1.png')" alt="Sagde" class="" />
     </div>
-  </div>
-  <div class="baloon-8 madscroll-slow bg-2" data-scroll-speed="4"></div>
+  </div-->
+  <!--div class="baloon-8 madscroll-slow bg-2" data-scroll-speed="4"></div-->
 
   <!--block 4-->
   <div id="menu-item-16-anchor" class="wrapper b_g-11">
