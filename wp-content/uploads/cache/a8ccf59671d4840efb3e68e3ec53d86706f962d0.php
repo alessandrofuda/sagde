@@ -5,7 +5,8 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="logo">
 					<a class="navbar-brand" href="<?php echo e(home_url('/')); ?>">
-						<img src="<?= App\asset_path('images/sagde_logo_header.png'); ?>" alt="<?php echo e(get_bloginfo('name', 'display')); ?>">
+						<img class="logo-with-txt" src="<?= App\asset_path('images/sagde_logo_header.png'); ?>" alt="<?php echo e(get_bloginfo('name', 'display')); ?>">
+						<img class="logo-without-txt" src="<?= App\asset_path('images/sagde_logo_header_without_txt.png'); ?>" alt="<?php echo e(get_bloginfo('name', 'display')); ?>">
 					</a>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

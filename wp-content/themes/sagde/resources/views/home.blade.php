@@ -52,7 +52,7 @@
   <!--block 1-->
   <div id="menu-item-15-anchor" class="wrapper bg-10">
     <div class="wrapper-padded-more">
-      <div id="chi-siamo" class="block-spacing aligncenter" style="background-image: url('@asset('images/sfondo2.jpg')');">
+      <div id="chi-siamo" class="block-spacing aligncenter" style="background-image: url('@asset('images/cosa-facciamo.jpg')');"> {{--sfondo2.jpg--}}
         <!--h2 class="title txt-8 allupper">Chi siamo: non il solito ufficio stampa</h2-->
         <div class="container-fluid">
           <div class="row row-1">
@@ -68,7 +68,7 @@
                       Grazie alla preparazione tecnica e giornalistica nostra e dei nostri collaboratori, il nostro obiettivo è supportare le piccole e le grandi realtà che operano in diversi settori, agricolo, zootecnico, agro-alimentare, trasporti, logistica.<br>
                       Proponiamo strategie di comunicazione B2B e B2C sostenibili e orientate ad obiettivi concreti che esaltino e valorizzino l'identità di chi ci sceglie, così da raggiungere una posizione definita e facilmente individuabile nel mercato di riferimento.<br>
                   </h4>
-                  <div class="btn light" style="border:2px solid #000; box-shadow:1px 1px 10px #FFF;">
+                  <div class="btn light" style="box-shadow:1px 1px 10px #FFF;">
                       <div id="cta-0" class="inner allupper" style="text-shadow: 2px 2px 0px #FFF, -1px -1px 0px #000; color: #888;">Contattaci</div>
                   </div>
               </div>
@@ -91,33 +91,40 @@
     <div class="wrapper-padded-more">
       <div class="block-spacing aligncenter txt-8">
         <div class="container-fluid">
-          <div class="row row-top cosa-facciamo-bg" style="background-image: url('@asset('images/cosa-facciamo.jpg')')">
             <div class="col-12 padding-0" style="z-index: 10">
               <div class="cosa-facciamo-container col12 aligncenter">
-                  <img class="services" src="@asset('images/sagde-servizi.jpg')">
-                  <div class="btn light">
-                      <div id="cta-0" class="inner allupper">Contattaci</div>
-                  </div>
+                  <img class="services" src="@asset('images/services/SadGe WEB_1_SlideShow.jpg')"> {{-- sagde-servizi.jpg --}}
+                  <div id="anchor-1"></div>
+                  <img class="services" src="@asset('images/services/SlideShow_01_Ufficio Stampa.jpg')">
+                  <div id="anchor-2"></div>
+                  <img class="services" src="@asset('images/services/SlideShow_02_Social Media.jpg')">
+                  <div id="anchor-3"></div>
+                  <img class="services" src="@asset('images/services/SlideShow_03_Lead Generation.jpg')">
+                  <div id="anchor-4"></div>
+                  <img class="services" src="@asset('images/services/SlideShow_04_Grafica e Design.jpg')">
+                  <div id="anchor-5"></div>
+                  <img class="services" src="@asset('images/services/SlideShow_05_Service Giornalistico.jpg')">
               </div>
             </div>
             <div class="filter-opacity" style="z-index:9"></div>
-          </div>
-          <div class="row row-bottom bg-12">
+          <!--div class="row row-bottom bg-12">
             <div class="col-12 padding-0">
-            </div>
+            </div-->
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  
+
   <!--block 6-->
   <div id="menu-item-18-anchor" class="wrapper bg-6 hide-overflow contact-form-bg" style="background-image: url('@asset('images/contattaci.jpg')');">
-    <div class="baloon-9 madscroll-slow" data-scroll-speed="8">
+    <!--div class="baloon-9 madscroll-slow" data-scroll-speed="8">
       <div class="no-the-100">
-        <img src="@asset('images/baloon-1.png')" alt="Sagde" />
+        <img src="@ ___asset('images/baloon-1.png')" alt="Sagde" />
       </div>
-    </div>
+    </div-->
     <div class="wrapper-padded-more">
       <div class="block-spacing aligncenter">
         <div class="form-hold">
