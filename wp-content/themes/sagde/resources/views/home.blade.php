@@ -69,7 +69,7 @@
                       Proponiamo strategie di comunicazione B2B e B2C sostenibili e orientate ad obiettivi concreti che esaltino e valorizzino l'identità di chi ci sceglie, così da raggiungere una posizione definita e facilmente individuabile nel mercato di riferimento.<br>
                   </h4>
                   <div class="btn light" style="box-shadow:1px 1px 10px #FFF;">
-                      <div id="cta-0" class="inner allupper" style="text-shadow: 2px 2px 0px #FFF, -1px -1px 0px #000; color: #888;">Contattaci</div>
+                      <div id="cta-0" class="inner allupper" style="/*text-shadow:2px 2px 0px #000, -1px -1px 0px #000;color:#FFF;*/">Contattaci</div>
                   </div>
               </div>
             </div>
