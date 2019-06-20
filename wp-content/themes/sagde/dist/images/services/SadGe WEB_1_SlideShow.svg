@@ -56,8 +56,8 @@
      inkscape:window-height="1052"
      id="namedview66"
      showgrid="false"
-     inkscape:zoom="0.76095916"
-     inkscape:cx="1555.2691"
+     inkscape:zoom="0.43852551"
+     inkscape:cx="1575.1249"
      inkscape:cy="1030.0063"
      inkscape:window-x="49"
      inkscape:window-y="0"
@@ -178,12 +178,14 @@
      xlink:href="#anchor-1"
      xlink:title="Ufficio Stampa"
      inkscape:label="#a6181_UfficioStampa"
-     style="opacity:0">
+     style="opacity:0;fill:#71ea00;fill-opacity:0.57647061"
+     onmouseover="this.style.opacity=1"
+     onmouseout="this.style.opacity=0">
     <ellipse
        onmouseout="this.style.opacity=0"
        onmouseover="this.style.opacity=1"
        inkscape:label="#path101_UfficioStampa"
-       style="display:inline;opacity:0.51690823;fill:#71ea00;fill-opacity:0.57647059;stroke-width:0.76880789"
+       style="display:inline;opacity:0.51690823;fill:#71ea00;fill-opacity:0.57647061;stroke-width:0.76880789"
        ry="67.080292"
        rx="66.195213"
        cy="154.72641"
