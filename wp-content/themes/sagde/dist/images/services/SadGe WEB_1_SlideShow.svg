@@ -2,6 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -17,7 +18,8 @@
    viewBox="0 0 2560 1393.92"
    sodipodi:docname="SadGe WEB_1_SlideShow.svg"
    inkscape:version="0.92.4 (unknown)"
-   enable-background="new">
+   enable-background="new"
+   inkscape:label="ServiceGiorn">
   <metadata
      id="metadata70">
     <rdf:RDF>
@@ -31,7 +33,16 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs68" />
+     id="defs68">
+    <linearGradient
+       id="linearGradient6098"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6096" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -45,9 +56,9 @@
      inkscape:window-height="1052"
      id="namedview66"
      showgrid="false"
-     inkscape:zoom="0.6248565"
-     inkscape:cx="751.87871"
-     inkscape:cy="824.98942"
+     inkscape:zoom="0.76095916"
+     inkscape:cx="1555.2691"
+     inkscape:cy="1030.0063"
      inkscape:window-x="49"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -66,7 +77,8 @@
   </a>
   <g
      id="g74"
-     style="display:inline;opacity:1;fill:none;fill-opacity:0.57751938">
+     style="display:inline;opacity:1;fill:none;fill-opacity:0.57751938"
+     inkscape:label="#g74_Intera_Img">
     <path
        style="fill:none;fill-opacity:0.57751938;stroke-width:0.63999999"
        d="M 0,696.96 V 0 h 1280 1280 v 696.96 696.96 H 1280 0 Z"
@@ -146,45 +158,88 @@
   <a
      id="a4536"
      xlink:href="/#anchor-4"
-     xlink:title="tooltip esempio"
-     style="display:inline">
+     xlink:title="Grafica e design"
+     style="display:inline;opacity:1"
+     inkscape:label="#a4536_GraficaDesign">
     <ellipse
        onmouseout="this.style.opacity=0"
        onmouseover="this.style.opacity=1"
        inkscape:highlight-color="4278190218"
-       inkscape:label="path91"
-       style="display:inline;opacity:0;fill:#71ea00;fill-opacity:0.57751938"
-       ry="79.980362"
-       rx="84.430695"
-       cy="169.55504"
-       cx="746.65778"
+       inkscape:label="path91_grafica_design"
+       style="display:inline;opacity:0;fill:#71ea00;fill-opacity:0.57751938;stroke-width:0.82578713"
+       ry="67.120094"
+       rx="68.60685"
+       cy="168.52194"
+       cx="754.59686"
        id="path91" />
   </a>
-  <ellipse
-     id="path101"
-     cx="1662.8853"
-     cy="160.64"
-     rx="85.907181"
-     ry="87.449326"
-     style="display:inline" />
-  <circle
-     id="path109"
-     cx="750.03833"
-     cy="600.24847"
-     r="74.417084"
-     style="display:inline" />
-  <ellipse
-     id="path111"
-     cx="1166.6678"
-     cy="1086.6495"
-     rx="75.21727"
-     ry="80.018372"
-     style="display:inline" />
-  <ellipse
-     id="path113"
-     cx="1652.5173"
-     cy="1020.9258"
-     rx="82.280952"
-     ry="75.325874"
-     style="display:inline" />
+  <a
+     id="a6181"
+     xlink:href="#anchor-1"
+     xlink:title="Ufficio Stampa"
+     inkscape:label="#a6181_UfficioStampa"
+     style="opacity:0">
+    <ellipse
+       onmouseout="this.style.opacity=0"
+       onmouseover="this.style.opacity=1"
+       inkscape:label="#path101_UfficioStampa"
+       style="display:inline;opacity:0.51690823;fill:#71ea00;fill-opacity:0.57647059;stroke-width:0.76880789"
+       ry="67.080292"
+       rx="66.195213"
+       cy="154.72641"
+       cx="1652.3722"
+       id="path101">
+      <title
+         id="title6179">Ufficio Stampa</title>
+    </ellipse>
+  </a>
+  <a
+     id="a6102"
+     xlink:href="#anchor-3"
+     xlink:title="Lead Generation"
+     inkscape:label="#a6102_LeadGeneration">
+    <ellipse
+       onmouseout="this.style.opacity=0"
+       onmouseover="this.style.opacity=1"
+       ry="67.846436"
+       rx="66.532303"
+       style="display:inline;opacity:0;fill:#71ea00;fill-opacity:0.57647059;stroke-width:0.90283233"
+       cy="600.24847"
+       cx="750.03833"
+       id="path109"
+       inkscape:label="#path109_LeadGeneration" />
+  </a>
+  <a
+     id="a6173"
+     xlink:href="#anchor-5"
+     xlink:title="Service Giornalistico"
+     inkscape:label="#a6173_ServiceGiornalistico"
+     style="opacity:1">
+    <ellipse
+       inkscape:label="#path111_ServiceGiornal"
+       onmouseout="this.style.opacity=0"
+       onmouseover="this.style.opacity=1"
+       style="display:inline;opacity:0;fill:#71ea00;fill-opacity:0.57751938;stroke-width:0.86070287"
+       ry="66.220001"
+       rx="67.332489"
+       cy="1091.249"
+       cx="1166.6678"
+       id="path111" />
+  </a>
+  <a
+     id="a6176"
+     xlink:href="#anchor-2"
+     xlink:title="Social Media"
+     inkscape:label="#a6176_SocialMedia">
+    <ellipse
+       onmouseout="this.style.opacity=0"
+       onmouseover="this.style.opacity=1"
+       inkscape:label="#path113_SocialMedia"
+       style="display:inline;opacity:0;fill:#71ea00;fill-opacity:0.57647059;stroke-width:0.84656936"
+       ry="66.784027"
+       rx="66.511375"
+       cy="1022.8969"
+       cx="1652.5173"
+       id="path113" />
+  </a>
 </svg>
