@@ -48,8 +48,7 @@
     </div>
   @php dynamic_sidebar('sidebar-footer') @endphp  
   </div>
-</footer>
-
-<button id="swich-top" class="top-btn fixed">
+  <div id="swich-top" class="top-btn fixed">
     <svg width="50" height="50" class="octicon octicon-chevron-up" viewBox="0 0 10 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M10 10l-1.5 1.5L5 7.75 1.5 11.5 0 10l5-5 5 5z"></path></svg>
-</button>
+  </div>
+</footer>
