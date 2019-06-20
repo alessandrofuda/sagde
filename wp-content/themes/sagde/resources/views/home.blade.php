@@ -40,10 +40,10 @@
                   <h1 class="txt-8 allupper">
                       <?php echo do_shortcode( '[typed string0="'.get_field('title_1').'" typeSpeed="80" startDelay="500" backSpeed="40" backDelay="100"]' ) ?> 
                   </h1>
-                  <h2 class="txt-8 allupper" style="height: 50px;">
+                  <h2 class="txt-8 allupper" style="min-height: 50px;">
                       <?php echo do_shortcode( '[typed string0="Studio Associato Giornalistico" typeSpeed="50" startDelay="2000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) ?>  
                   </h2>
-                  <h2 class="txt-8 allupper" style="height: 50px;">
+                  <h2 class="txt-8 allupper" style="min-height: 50px;">
                       <?php echo do_shortcode( '[typed string0="Distribuzione Elettronica" typeSpeed="50" startDelay="5000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) ?>  
                   </h2>
               </div>
