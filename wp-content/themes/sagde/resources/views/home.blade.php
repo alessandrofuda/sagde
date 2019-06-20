@@ -41,7 +41,10 @@
                       <?php echo do_shortcode( '[typed string0="'.get_field('title_1').'" typeSpeed="80" startDelay="500" backSpeed="40" backDelay="100"]' ) ?> 
                   </h1>
                   <h2 class="txt-8 allupper" style="height: 50px;">
-                      <?php echo do_shortcode( '[typed string0="Studio Associato Giornalistico" string1="Distribuzione Elettronica" string2="'.get_field('title_2').'" typeSpeed="50" startDelay="2000" backSpeed="40" backDelay="100" loopCount="2" loop="1"]' ) ?>  
+                      <?php echo do_shortcode( '[typed string0="Studio Associato Giornalistico" typeSpeed="50" startDelay="2000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) ?>  
+                  </h2>
+                  <h2 class="txt-8 allupper" style="height: 50px;">
+                      <?php echo do_shortcode( '[typed string0="Distribuzione Elettronica" typeSpeed="50" startDelay="5000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) ?>  
                   </h2>
               </div>
             </div>
@@ -93,7 +96,7 @@
         <div class="container-fluid">
             <div class="col-12 padding-0" style="z-index: 10">
               <div class="cosa-facciamo-container col12 aligncenter">
-                  <img class="services style-svg" src="@asset('images/services/SadGe WEB_1_SlideShow.svg')"> {{-- style-svg !important!! --}}
+                  <img class="services style-svg" src="@asset('images/services/SadGe WEB_1_SlideShow.svg')"> {{-- .style-svg !important!! --}}
                   <div id="anchor-1"></div>
                   <img class="services" src="@asset('images/services/SlideShow_01_Ufficio Stampa.jpg')">
                   <div id="anchor-2"></div>
