@@ -25,18 +25,19 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="{{url('frontend/landing-page/images/favicons/favicon-32x32.png')}}">
 	<link rel="icon" type="image/png" sizes="96x96" href="{{url('frontend/landing-page/images/favicons/favicon-96x96.png')}}">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{url('frontend/landing-page/images/favicons/favicon-16x16.png')}}"> --}}
-	<link rel="manifest" href="{{--url('frontend/landing-page/images/favicons/manifest.json')--}}">
+	{{--<link rel="manifest" href="url('frontend/landing-page/images/favicons/manifest.json')">--}}
 	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#00a04c">
+	{{-- <meta name="theme-color" content="#00a04c"> --}}
 	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#00a04c">
+	{{-- <meta name="msapplication-navbutton-color" content="#00a04c"> --}}
 	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#00a04c">
+	{{-- <meta name="apple-mobile-web-app-status-bar-style" content="#00a04c">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="{{--url('frontend/landing-page/images/favicons/ms-icon-144x144.png')--}}">
+	<meta name="msapplication-TileImage" content="url('frontend/landing-page/images/favicons/ms-icon-144x144.png')"> --}}
 	@php wp_head() @endphp
 	<!--link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Varela+Round" rel="stylesheet"-->
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<!--script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'></script-->
 	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.19.0/lazyload.min.js'></script>
+	<link rel="shortcut icon" href="@asset('images/icons/favicon.ico')" />
 </head>
