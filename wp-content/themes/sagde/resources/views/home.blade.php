@@ -59,7 +59,7 @@
         <!--h2 class="title txt-8 allupper">Chi siamo: non il solito ufficio stampa</h2-->
         <div class="container-fluid">
           <div class="row row-1">
-            <div class="col-md-12 padding-0 sx">
+            <div class="col-md-10 offset-md-1 sx">
               <div class="chi-siamo-1-container">
                   <h4 class="txt-8 content-1">
                       SAGDE nasce dall'esperienza ultradecennale delle sue fondatrici nell'editoria di settore, supportata da una formazione universitaria tecnica.<br>
