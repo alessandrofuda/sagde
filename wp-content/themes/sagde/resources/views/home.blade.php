@@ -103,7 +103,7 @@
                   --}}
 
 
-                  <img class="services style-svg" src="@asset('images/services/SadGe WEB_1_SlideShow.svg')"> {{-- .style-svg !important!! --}}
+                  <img class="services style-svg" src="@asset('images/services/SadGe WEB_1_SlideShow_ottimiz.svg')"> {{-- .style-svg !important!! --}}
                   <div id="anchor-1"></div>
                   <img class="services" src="@asset('images/services/SlideShow_01_Ufficio Stampa.jpg')">
                   <div id="anchor-2"></div>
