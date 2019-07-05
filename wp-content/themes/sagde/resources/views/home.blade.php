@@ -34,18 +34,18 @@
         <div id="top-titles" class="wrapper">
           <div class="wrapper-padded">
             <div class="wrapper-padded-more">
-              <div class="madscroll-slow aligncenter" data-scroll-speed="6">
-                  <!--h1 class="txt-8 allupper">{{-- get_field('title_1') --}}</h1>
-                  <h2 class="txt-8 allupper">{{-- get_field('title_2') --}}</h2-->
-                  <h1 class="txt-8 allupper">
-                      <?php echo do_shortcode( '[typed string0="'.get_field('title_1').'" typeSpeed="80" startDelay="500" backSpeed="40" backDelay="100"]' ) ?> 
+              <div class="m_____adscroll-slow aligncenter" data-scroll-speed="6">
+                  <h2 class="txt-8 allupper">Non il solito Ufficio Stampa</h2>
+                  <!--h2 class="txt-8 allupper">{{-- get_field('title_2') --}}</h2-->
+                  <!--h1 class="txt-8 allupper">
+                      <?php /* echo do_shortcode( '[typed string0="'.get_field('title_1').'" typeSpeed="80" startDelay="500" backSpeed="40" backDelay="100"]' ) */?> 
                   </h1>
                   <h2 class="txt-8 allupper" style="min-height: 50px;">
-                      <?php echo do_shortcode( '[typed string0="Studio Associato Giornalistico" typeSpeed="50" startDelay="2000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) ?>  
+                      <?php /* echo do_shortcode( '[typed string0="Studio Associato Giornalistico" typeSpeed="50" startDelay="2000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) */ ?>  
                   </h2>
                   <h2 class="txt-8 allupper" style="min-height: 50px;">
-                      <?php echo do_shortcode( '[typed string0="Distribuzione Elettronica" typeSpeed="50" startDelay="5000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) ?>  
-                  </h2>
+                      <?php /* echo do_shortcode( '[typed string0="Distribuzione Elettronica" typeSpeed="50" startDelay="5000" backSpeed="40" backDelay="100" loopCount="1" loop="1"]' ) */ ?>  
+                  </h2-->
               </div>
             </div>
           </div>
@@ -103,17 +103,97 @@
                   --}}
 
 
-                  <img class="services style-svg" src="@asset('images/services/SadGe WEB_1_SlideShow_ottimiz.svg')"> {{-- .style-svg !important!! --}}
+
+
+
+
+
+                  <img class="services style-svg" src="@asset('images/services/no-bg/00_Sito-head.svg')"> {{-- .style-svg !important!! --}}
+                  
+                  <div class="row">
+                      <div id="anchor-1"></div>
+
+                      <div class="col-md-6  serv-sx">
+                        <div class="serv-sx-img-container">
+                          <img class="services img-sx uff-sta-sx" src="@asset('images/services/no-bg/01_sx_Sito-ufficio e stampa.png')">
+                        </div>
+                      </div>
+                      <div class="col-md-6 serv-dx">
+                        <div class="serv-dx-img-container">
+                          <img class="services img-dx uff-sta-dx" src="@asset('images/services/no-bg/01_dx_Sito-ufficio e stampa.png')">
+                        </div>
+                      </div>
+
+                      <div id="anchor-2"></div>
+                      
+                      <div class="col-md-6  serv-sx">
+                        <div class="serv-sx-img-container">
+                          <img class="services img-sx soc-med-sx" src="@asset('images/services/no-bg/02_sx_Sito-Social media.png')">
+                        </div>
+                      </div>
+                      <div class="col-md-6 serv-dx">
+                        <div class="serv-dx-img-container">
+                          <img class="services img-dx soc-med-dx" src="@asset('images/services/no-bg/02_dx_Sito-Social media.png')">
+                        </div>
+                      </div>
+
+                      <div id="anchor-3"></div>
+                      
+                      <div class="col-md-6  serv-sx">
+                        <div class="serv-sx-img-container">
+                          <img class="services img-sx lead-gen-sx" src="@asset('images/services/no-bg/03_sx_Sito-lead generation.png')">
+                        </div>
+                      </div>
+                      <div class="col-md-6 serv-dx">
+                        <div class="serv-dx-img-container">
+                          <img class="services img-dx lead-gen-dx" src="@asset('images/services/no-bg/03_dx_Sito-lead generation.png')">
+                        </div>
+                      </div>
+                      
+                      <div id="anchor-4"></div>
+                      
+                      <div class="col-md-6  serv-sx">
+                        <div class="serv-sx-img-container">
+                          <img class="services img-sx graf-des-sx" src="@asset('images/services/no-bg/04_sx_Sito-Grafica e Design.png')">
+                        </div>
+                      </div>
+                      <div class="col-md-6 serv-dx">
+                        <div class="serv-dx-img-container">
+                          <img class="services img-dx graf-des-dx" src="@asset('images/services/no-bg/04_dx_Sito-Grafica e Design.png')">
+                        </div>
+                      </div>
+                      
+                      <div id="anchor-5"></div>
+                      
+                      <div class="col-md-6  serv-sx">
+                        <div class="serv-sx-img-container">
+                          <img class="services img-sx serv-giorn-sx" src="@asset('images/services/no-bg/05_sx_Sito-service giornalistico.png')">
+                        </div>
+                      </div>
+                      <div class="col-md-6 serv-dx">
+                        <div class="serv-dx-img-container">
+                          <img class="services img-dx serv-giorn-dx" src="@asset('images/services/no-bg/05_dx_Sito-service giornalistico.png')">
+                        </div>
+                      </div>
+                  </div>
+
+
+
+
+
+
+
+                  <!--img class="services style-svg" src="@ asset('images/services/SadGe WEB_1_SlideShow_ottimiz.svg')"> {{-- .style-svg !important!! --}}
                   <div id="anchor-1"></div>
-                  <img class="services" src="@asset('images/services/SlideShow_01_Ufficio Stampa.jpg')">
+                  <img class="services" src="@ asset('images/services/SlideShow_01_Ufficio Stampa.jpg')">
                   <div id="anchor-2"></div>
-                  <img class="services" src="@asset('images/services/SlideShow_02_Social Media.jpg')">
+                  <img class="services" src="@ asset('images/services/SlideShow_02_Social Media.jpg')">
                   <div id="anchor-3"></div>
-                  <img class="services" src="@asset('images/services/SlideShow_03_Lead Generation.jpg')">
+                  <img class="services" src="@ asset('images/services/SlideShow_03_Lead Generation.jpg')">
                   <div id="anchor-4"></div>
-                  <img class="services" src="@asset('images/services/SlideShow_04_Grafica e Design.jpg')">
+                  <img class="services" src="@ asset('images/services/SlideShow_04_Grafica e Design.jpg')">
                   <div id="anchor-5"></div>
-                  <img class="services" src="@asset('images/services/SlideShow_05_Service Giornalistico.jpg')">
+                  <img class="services" src="@ asset('images/services/SlideShow_05_Service Giornalistico.jpg')"-->
               </div>
             </div>
             <div class="filter-opacity" style="z-index:9"></div>
