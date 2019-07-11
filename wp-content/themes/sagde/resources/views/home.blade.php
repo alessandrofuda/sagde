@@ -96,24 +96,11 @@
         <div class="container-fluid">
             <div class="col-12 padding-0" style="z-index: 10">
               <div class="cosa-facciamo-container col12 aligncenter">
-
-                  {{--test
-                  <img class="services style-svg" src="@asset('images/services/Sito 2 copia-01_SFONDO_TRASPARENTE.svg')" style="position: relative;">
-                  <div class="sfondo-svg"></div>
-                  --}}
-
-
-
-
-
-
-
                   <img class="services style-svg" src="@asset('images/services/no-bg/00_Sito-head.svg')"> {{-- .style-svg !important!! --}}
-                  
                   <div class="row">
-                      <div id="anchor-1"></div>
+                      <!--div id="anchor-1"></div-->
 
-                      <div class="col-md-6  serv-sx">
+                      <div id="anchor-1" class="col-md-6  serv-sx">
                         <div class="serv-sx-img-container">
                           <img class="services img-sx uff-sta-sx" src="@asset('images/services/no-bg/01_sx_Sito-ufficio e stampa.png')">
                         </div>
@@ -124,9 +111,9 @@
                         </div>
                       </div>
 
-                      <div id="anchor-2"></div>
+                      <!--div id="anchor-2"></div-->
                       
-                      <div class="col-md-6  serv-sx">
+                      <div id="anchor-2" class="col-md-6  serv-sx">
                         <div class="serv-sx-img-container">
                           <img class="services img-sx soc-med-sx" src="@asset('images/services/no-bg/02_sx_Sito-Social media.png')">
                         </div>
@@ -137,9 +124,9 @@
                         </div>
                       </div>
 
-                      <div id="anchor-3"></div>
+                      <!--div id="anchor-3"></div-->
                       
-                      <div class="col-md-6  serv-sx">
+                      <div id="anchor-3" class="col-md-6  serv-sx">
                         <div class="serv-sx-img-container">
                           <img class="services img-sx lead-gen-sx" src="@asset('images/services/no-bg/03_sx_Sito-lead generation.png')">
                         </div>
@@ -150,9 +137,9 @@
                         </div>
                       </div>
                       
-                      <div id="anchor-4"></div>
+                      <!--div id="anchor-4"></div-->
                       
-                      <div class="col-md-6  serv-sx">
+                      <div id="anchor-4" class="col-md-6  serv-sx">
                         <div class="serv-sx-img-container">
                           <img class="services img-sx graf-des-sx" src="@asset('images/services/no-bg/04_sx_Sito-Grafica e Design.png')">
                         </div>
@@ -163,9 +150,9 @@
                         </div>
                       </div>
                       
-                      <div id="anchor-5"></div>
+                      <!--div id="anchor-5"></div-->
                       
-                      <div class="col-md-6  serv-sx">
+                      <div id="anchor-5" class="col-md-6  serv-sx">
                         <div class="serv-sx-img-container">
                           <img class="services img-sx serv-giorn-sx" src="@asset('images/services/no-bg/05_sx_Sito-service giornalistico.png')">
                         </div>
@@ -176,24 +163,6 @@
                         </div>
                       </div>
                   </div>
-
-
-
-
-
-
-
-                  <!--img class="services style-svg" src="@ asset('images/services/SadGe WEB_1_SlideShow_ottimiz.svg')"> {{-- .style-svg !important!! --}}
-                  <div id="anchor-1"></div>
-                  <img class="services" src="@ asset('images/services/SlideShow_01_Ufficio Stampa.jpg')">
-                  <div id="anchor-2"></div>
-                  <img class="services" src="@ asset('images/services/SlideShow_02_Social Media.jpg')">
-                  <div id="anchor-3"></div>
-                  <img class="services" src="@ asset('images/services/SlideShow_03_Lead Generation.jpg')">
-                  <div id="anchor-4"></div>
-                  <img class="services" src="@ asset('images/services/SlideShow_04_Grafica e Design.jpg')">
-                  <div id="anchor-5"></div>
-                  <img class="services" src="@ asset('images/services/SlideShow_05_Service Giornalistico.jpg')"-->
               </div>
             </div>
             <div class="filter-opacity" style="z-index:9"></div>
