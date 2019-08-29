@@ -1,4 +1,4 @@
-{{-- <header id="header" class="not-scrolled-header">
+<header id="header" class="not-scrolled-header">
 	<div class="header-bg"></div>
 	<div class="wrapper">
 		<div class="wrapper-padded">
@@ -20,4 +20,4 @@
 			</nav>
 		</div>
 	</div>
-</header> --}}
+</header>
