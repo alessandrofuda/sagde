@@ -5,7 +5,7 @@
 @extends('layouts.app')
 
 @section('header-background-image')
-  <div class="box-fullscreen test-gradient lazy coverize lazy" data-src="{{ get_field('header_background_image')['url'] }}" style="max-width:100%;"></div>
+  <!--div class="box-fullscreen test-gradient lazy coverize lazy" data-src="{{-- get_field('header_background_image')['url'] --}}" style="max-width:100%;"></div-->
 @endsection
 
 @section('content')
