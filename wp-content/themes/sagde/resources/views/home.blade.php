@@ -35,8 +35,8 @@
           <div class="wrapper-padded">
             <div class="wrapper-padded-more">
               <div class="m_____adscroll-slow aligncenter" data-scroll-speed="6">
-                  <h2 class="txt-8 allupper">Non il solito Ufficio Stampa</h2>
-                  <!--h2 class="txt-8 allupper">{{-- get_field('title_2') --}}</h2-->
+                  <h2 class="txt-8 allupper">{{ get_field('title_1') }}</h2>
+                  <h2 class="txt-8 allupper">{{ get_field('title_2') }}</h2>
                   <!--h1 class="txt-8 allupper">
                       <?php /* echo do_shortcode( '[typed string0="'.get_field('title_1').'" typeSpeed="80" startDelay="500" backSpeed="40" backDelay="100"]' ) */?> 
                   </h1>
@@ -62,14 +62,11 @@
             <div class="col-md-10 offset-md-1 sx">
               <div class="chi-siamo-1-container">
                   <h4 class="txt-8 content-1">
-                      SAGDE nasce dall'esperienza ultradecennale delle sue fondatrici nell'editoria di settore, supportata da una formazione universitaria tecnica.<br>
-                      Forti delle capacità acquisite sul campo, ci proponiamo ad aziende produttrici, associazioni, imprese, enti e associazioni per sviluppare insieme piani di comunicazione “taylor made”, prodotti editoriali e servizi a supporto delle attività di marketing e comunicazione.<br>
-                      L'obiettivo di SAGDE è ben preciso: accorciare le distanze tra gli operatori e la stampa.<br>
+                      {!! get_field('text_1') !!}
                   </h4>
                   <br><br><br><br>
                   <h4 class="txt-8 content-2">
-                      Grazie alla preparazione tecnica e giornalistica nostra e dei nostri collaboratori, il nostro obiettivo è supportare le piccole e le grandi realtà che operano in diversi settori, agricolo, zootecnico, agro-alimentare, trasporti, logistica.<br>
-                      Proponiamo strategie di comunicazione B2B e B2C sostenibili e orientate ad obiettivi concreti che esaltino e valorizzino l'identità di chi ci sceglie, così da raggiungere una posizione definita e facilmente individuabile nel mercato di riferimento.<br>
+                      {!! get_field('text_2') !!}
                   </h4>
                   <div class="btn light" style="box-shadow:1px 1px 10px #FFF;">
                       <div id="cta-0" class="inner allupper" style="/*text-shadow:2px 2px 0px #000, -1px -1px 0px #000;color:#FFF;*/">Contattaci</div>
@@ -187,7 +184,7 @@
     <div class="wrapper-padded-more">
       <div class="block-spacing aligncenter">
         <div class="form-hold">
-          <h2 class="title allupper">Vuoi informazioni?<br/>Scrivici</h2>
+          <h2 class="title allupper">{!! get_field('contact_form_title') !!}</h2>
           {!! do_shortcode( '[contact-form-7 id="20" title="Contact form 1"]' ) !!}
         </div>
       </div>
